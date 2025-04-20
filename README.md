@@ -6,18 +6,18 @@ Word embeddings are a crucial part of natural language processing, allowing word
 ## 2. Training Word Vectors
 For each of the algorithms, embeddings were trained using the Brown Corpus from NLTK. The learned embeddings were stored as `.pt` files.
 
-### 2.1 SVD (5 marks)
+### 2.1 SVD 
 Implemented a word embedding model using the following steps:
 1. Built a Co-occurrence Matrix.
 2. Applied Singular Value Decomposition (SVD) to reduce the dimensionality and extract meaningful word vectors.
 
-### 2.2 CBOW Algorithm (15 marks)
+### 2.2 CBOW Algorithm 
 Implemented a word2vec model using the Continuous Bag of Words (CBOW) approach with Negative Sampling. The model was trained using the Brown Corpus, and word vectors were saved.
 
-### 2.3 Skip-Gram Algorithm (15 marks)
+### 2.3 Skip-Gram Algorithm 
 Implemented a word2vec model using the Skip-Gram approach with Negative Sampling. Similar to CBOW, the model was trained on the Brown Corpus, and the learned word vectors were stored.
 
-## 3. Word Similarity (5 marks)
+## 3. Word Similarity 
 To evaluate the trained word embeddings, we used the WordSim-353 dataset, which contains pairs of words with human-assigned similarity scores ranging from 0 to 10.
 
 For each word pair:
@@ -46,7 +46,7 @@ Computing word similarities...
 Spearman’s Rank Correlation: 0.3379
 ```
 
-## 5. Analysis (10 marks)
+## 5. Analysis 
 ### 5.1 Comparison of Results
 | Model | Spearman’s Rank Correlation |
 |--------|----------------------------|
