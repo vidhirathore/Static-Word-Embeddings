@@ -81,9 +81,7 @@ To better visualize the relationship between predicted word similarities (from e
 ![CBOW Scatter Plot](cbow_scatter_plot.png)
 ![SVD Scatter Plot](svd_scatter_plot.png)
 
-## 6. Submission Format
-The following files have been submitted in a zip file:
-
+## 6. Directory Format
 1. **Source codes**
    - `svd.py`: Trains embeddings using SVD and saves vectors.
    - `skipgram.py`: Trains embeddings using Skip-Gram and saves vectors.
